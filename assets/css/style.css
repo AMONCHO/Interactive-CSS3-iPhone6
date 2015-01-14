@@ -258,24 +258,18 @@ body {
   left: 0;
   z-index: 7;
 }
-#iphone-6 .screen .topbar .carrer {
+#iphone-6 .screen .topbar .signal {
   position: absolute;
   left: 10px;
   top: 5px;
   line-height: 1;
-}
-#iphone-6 .screen .topbar .time {
-  position: absolute;
-  width: 100%;
-  text-align: center;
-  top: 5px;
 }
 #iphone-6 .screen .topbar .signal span {
   width: 5px;
   height: 5px;
   border: 1px solid #fff;
   display: inline-block;
-  margin: 0;
+  margin: 0 2px 0 0;
   -webkit-border-radius: 50%;
   -webkit-background-clip: padding-box;
   -moz-border-radius: 50%;
@@ -285,6 +279,12 @@ body {
 }
 #iphone-6 .screen .topbar .signal span.full {
   background: #fff;
+}
+#iphone-6 .screen .topbar .time {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 5px;
 }
 #iphone-6 .screen .topbar .battery {
   position: absolute;

@@ -5,7 +5,7 @@
 	        $('.loading').fadeOut(200, function(){
 	        	IPHONE.init();
 	        });
-	      }, 3500);
+	      }, 1);
 		}
 
 		IPHONE.controls = function(){

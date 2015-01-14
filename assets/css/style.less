@@ -205,11 +205,24 @@ body{
 			left: 0;
 			z-index: 7;
 
-			.carrer{
+			.signal{
 				position: absolute;
 				left: 10px;
 				top: 5px;
 				line-height: 1;
+
+				span{
+					width: 5px;
+					height: 5px;
+					border: 1px solid #fff;
+					display: inline-block;
+					margin: 0 2px 0 0;
+					.border-radius(50%);
+				}
+
+				span.full{
+					background: #fff;
+				}
 			}
 
 			.time{
@@ -219,20 +232,6 @@ body{
 				top: 5px;
 			}
 
-			.signal{
-				span{
-					width: 5px;
-					height: 5px;
-					border: 1px solid #fff;
-					display: inline-block;
-					margin: 0;
-					.border-radius(50%);
-				}
-
-				span.full{
-					background: #fff;
-				}
-			}
 
 			.battery{
 				position: absolute;
